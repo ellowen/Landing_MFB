@@ -16,13 +16,13 @@ function App() {
 
   return (
     <>
-      <LandingPage />
+      {/* <LandingPage /> */}
       <Header />
       <main className="main">
         <HeroSection />
         <AboutSection />
         <ClientSection />
-        <ServiceSection />
+        {/* <ServiceSection /> */}
         <PorfolioSection/>
         <TeamSection />
         <ContactSection />

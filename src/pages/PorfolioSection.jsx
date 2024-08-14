@@ -189,7 +189,7 @@ const PorfolioSection = () => {
                             </div>
                         </div>
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img
                                 src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
                                 className="img-fluid"
@@ -216,9 +216,9 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img
                                 src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
                                 className="img-fluid"
@@ -245,9 +245,9 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img
                                 src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                                 className="img-fluid"
@@ -274,9 +274,9 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img
                                 src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                                 className="img-fluid"
@@ -303,7 +303,7 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
                     </div>
                     {/* End Portfolio Container */}
