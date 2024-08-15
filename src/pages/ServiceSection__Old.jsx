@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import YouTube from 'react-youtube';
 
 const ServiceSection = () => {
   const [loadVideos, setLoadVideos] = useState(false);
@@ -26,22 +27,18 @@ const ServiceSection = () => {
 
     return () => {
       if (observer && sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+        observer.unobserve(sectionRef.current);a
       }
     };
   }, []);
 
-  const renderYouTubeIframe = (videoId) => (
-    <iframe
-      width="100%"
-      height="250"
-      src={`https://www.youtube.com/embed/${videoId}?autoplay=0`}
-      title="YouTube video player"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  );
+  const videoOptions = {
+    height: 250,
+    width: '100%',
+    playerVars: {
+      autoplay: 0,
+    },
+  };
 
   return (
     <section id="services" className="services section dark-background" ref={sectionRef}>
@@ -57,17 +54,17 @@ const ServiceSection = () => {
         <div className="row gy-4">
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
             <div className="service-item position-relative">
-              {loadVideos && renderYouTubeIframe("I6ApqvOQEDQ")}
+              {loadVideos && <YouTube videoId="I6ApqvOQEDQ" opts={videoOptions} />}
             </div>
           </div>
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={200}>
             <div className="service-item position-relative">
-              {loadVideos && renderYouTubeIframe("5nRZ7wquWgs")}
+              {loadVideos && <YouTube videoId="5nRZ7wquWgs" opts={videoOptions} />}
             </div>
           </div>
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={300}>
             <div className="service-item position-relative">
-              {loadVideos && renderYouTubeIframe("BARPOnAHQYg")}
+              {loadVideos && <YouTube videoId="BARPOnAHQYg" opts={videoOptions} />}
             </div>
           </div>
         </div>

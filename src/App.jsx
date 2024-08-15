@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import Chota from './assets/js/main.js';
+import { useEffect, useState } from 'react'
 import Header from './pages/Header'
 import HeroSection from './pages/Herosection'
 import AboutSection from './pages/AboutSection'
@@ -11,9 +12,11 @@ import PorfolioSection from './pages/PorfolioSection'
 import ContactSection from './pages/ContactSection'
 
 
-
 function App() {
-
+  useEffect(() => {
+    Chota();
+  }, [])
+  
   return (
     <>
       {/* <LandingPage /> */}
@@ -22,7 +25,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ClientSection />
-        {/* <ServiceSection /> */}
+        <ServiceSection />
         <PorfolioSection/>
         <TeamSection />
         <ContactSection />
