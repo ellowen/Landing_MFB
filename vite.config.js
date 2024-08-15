@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Landing_MFB/', // Reemplaza {nombre-del-repositorio} por el nombre de tu repositorio
+  base: './', // Reemplaza {nombre-del-repositorio} por el nombre de tu repositorio
 });
