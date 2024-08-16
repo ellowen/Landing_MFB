@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 //import AOS from 'aos';
 //import AOS from './assets/vendor/aos';
-import './assets/vendor/aos/aos.css';
+import '../public/assets/vendor/aos/aos.css';
 //import Swiper from './assets/vendor/swiper'; // Asegúrate de que Swiper esté instalado
-import './assets/vendor/swiper/swiper-bundle.min.css';
+import '../public/assets/vendor/swiper/swiper-bundle.min.css';
 //import GLightbox from './assets/vendor/glightbox'; // Asegúrate de que GLightbox esté instalado
-import './assets/vendor/glightbox/css/glightbox.css';
+import '../public/assets/vendor/glightbox/css/glightbox.css';
 //import Isotope from './assets/vendor/isotope-layout'; // Asegúrate de que Isotope esté instalado
 //import imagesLoaded from './assets/vendor/imagesloaded'; // Asegúrate de que imagesLoaded esté instalado
 

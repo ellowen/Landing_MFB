@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import logo from '../assets/img/MFB1.jpg';
+// import logo from '../../public/assets/img/MFB1.jpg';
+import logo from '/assets/img/MFB1.jpg';
 
 const Header = () => {
   useEffect(() => {

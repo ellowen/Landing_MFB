@@ -1,7 +1,10 @@
 import React from 'react'
-import team1 from '../assets/img/team/image.png'
-import team2 from '../assets/img/team/team-2.jpg'
-import team3 from '../assets/img/team/team-3.jpg'
+import team1 from '/assets/img/team/image.png'
+import team2 from '/assets/img/team/team-2.jpg'
+import team3 from '/assets/img/team/team-3.jpg'
+// import team1 from '../../public/assets/img/team/image.png'
+// import team2 from '../../public/assets/img/team/team-2.jpg'
+// import team3 from '../../public/assets/img/team/team-3.jpg'
 
 const TeamSection = () => {
   return (

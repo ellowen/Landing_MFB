@@ -1,5 +1,6 @@
 import React from 'react'
-import MFB1 from '../assets/img/istockphoto.jpg'
+// import MFB1 from '../../public/assets/img/istockphoto.jpg'
+import MFB1 from '/assets/img/istockphoto.jpg'
 
 const HeroSection = () => {
     return (

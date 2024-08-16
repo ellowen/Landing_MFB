@@ -1,10 +1,15 @@
 import React from 'react'
 
-import clothes1 from '../assets/img/clothes/clothes1.jpg';
-import clothes2 from '../assets/img/clothes/clothes2.jpg';
-import clothes3 from '../assets/img/clothes/clothes3.jpg';
-import clothes4 from '../assets/img/clothes/clothes4.jpg';
-import clothes5 from '../assets/img/clothes/clothes5.jpg';
+// import clothes1 from '../../public/assets/img/clothes/clothes1.jpg';
+// import clothes2 from '../../public/assets/img/clothes/clothes2.jpg';
+// import clothes3 from '../../public/assets/img/clothes/clothes3.jpg';
+// import clothes4 from '../../public/assets/img/clothes/clothes4.jpg';
+// import clothes5 from '../../public/assets/img/clothes/clothes5.jpg';
+import clothes1 from '/assets/img/clothes/clothes1.jpg';
+import clothes2 from '/assets/img/clothes/clothes2.jpg';
+import clothes3 from '/assets/img/clothes/clothes3.jpg';
+import clothes4 from '/assets/img/clothes/clothes4.jpg';
+import clothes5 from '/assets/img/clothes/clothes5.jpg';
 
 const PorfolioSection = () => {
     return (
