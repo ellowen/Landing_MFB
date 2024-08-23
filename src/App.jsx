@@ -1,4 +1,5 @@
-import Chota from '../public/assets/js/main.js';
+// import Chota from './assets/js/main.js';
+import Chota from './assets/js/main.js';
 import { useEffect, useState } from 'react'
 import Header from './pages/Header'
 import HeroSection from './pages/Herosection'

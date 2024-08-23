@@ -15,7 +15,7 @@ const PorfolioSection = () => {
     return (
         <section id="portfolio" className="portfolio section">
             {/* Section Title */}
-            <div className="container section-title" data-aos="fade-up">
+            <div className="container section-title" /* data-aos="fade-up" */>
                 <span>MFB Clothes</span>
                 <h2>MFB Clothes</h2>
                 <p>
@@ -45,8 +45,8 @@ const PorfolioSection = () => {
                     {/* End Portfolio Filters */}
                     <div
                         className="row gy-4 isotope-container"
-                        data-aos="fade-up"
-                        data-aos-delay={200}
+                       /*  data-aos="fade-up" */
+                       /*  data-aos-delay={200} */
                     >
                         <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img

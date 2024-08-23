@@ -11,7 +11,7 @@ const TeamSection = () => {
   return (
     <section id="team" className="team section dark-background">
       {/* Section Title */}
-      <div className="container section-title" data-aos="fade-up">
+      <div className="container section-title" /* data-aos="fade-up" */>
         <span>Team</span>
         <h2>Team</h2>
         {/* <p>
@@ -24,8 +24,8 @@ const TeamSection = () => {
         <div className="row">
           <div
             className="col-lg-4 col-md-6 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={100}
+            /* data-aos="fade-up" */
+            /* data-aos-delay={100} */
           >
             <div className="member">
               <img src={team1} className="img-fluid" alt="" />
@@ -58,8 +58,8 @@ const TeamSection = () => {
           {/* End Team Member */}
           <div
             className="col-lg-4 col-md-6 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={200}
+            /* data-aos="fade-up" */
+            /* data-aos-delay={200} */
           >
             <div className="member">
               <img src={team2} className="img-fluid" alt="" />
@@ -92,8 +92,8 @@ const TeamSection = () => {
           {/* End Team Member */}
           <div
             className="col-lg-4 col-md-6 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={300}
+            /* data-aos="fade-up" */
+            /* data-aos-delay={300} */
           >
             <div className="member">
               <img src={team3} className="img-fluid" alt="" />
