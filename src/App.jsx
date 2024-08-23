@@ -16,10 +16,11 @@ function App() {
   useEffect(() => {
     Chota();
   }, [])
-  
+
   return (
     <>
-      
+      {/* <div id="preloader"></div> */}
+
       <Header />
       <main className="main">
         <HeroSection />
@@ -27,7 +28,7 @@ function App() {
         <ClientSection />
         <ServiceSection />
         <TeamSection />
-        <PorfolioSection/>
+        <PorfolioSection />
         <ContactSection />
       </main>
       <FooterSection />
