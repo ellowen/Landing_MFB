@@ -16,12 +16,11 @@ const PorfolioSection = () => {
         <section id="portfolio" className="portfolio section">
             {/* Section Title */}
             <div className="container section-title" data-aos="fade-up">
-                <span>Tienda</span>
-                <h2>Tienda</h2>
-                {/* <p>
-                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-                    consectetur velit
-                </p> */}
+                <span>MFB Clothes</span>
+                <h2>MFB Clothes</h2>
+                <p>
+                    Fashion & Style Brand for Musical Events & Artists
+                </p>
             </div>
             {/* End Section Title */}
             <div className="container">
@@ -136,7 +135,7 @@ const PorfolioSection = () => {
                             </div>
                         </div>
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img
                                 src={clothes4}
                                 className="img-fluid"
@@ -163,9 +162,9 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
-                        <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img
                                 src={clothes5}
                                 className="img-fluid"
@@ -192,7 +191,7 @@ const PorfolioSection = () => {
                                     <i className="bi bi-link-45deg" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Portfolio Item */}
                         {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img

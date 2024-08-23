@@ -93,11 +93,10 @@ const ServiceSection = () => {
   return (
     <section id="services" className="services section dark-background" ref={sectionRef}>
       <div className="container section-title" data-aos="fade-up">
-        <span>Videos</span>
-        <h2>Videos</h2>
+        <span>Episodios</span>
+        <h2>Episodios</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Disfrutá de la <strong>Temporada #1 PURE ORGANIC HOUSE</strong>
         </p>
       </div>
       <div className="container">

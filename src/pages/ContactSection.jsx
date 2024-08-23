@@ -7,10 +7,10 @@ const ContactSection = () => {
             <div className="container section-title" data-aos="fade-up">
                 <span>Contacto</span>
                 <h2>Contacto</h2>
-                <p>
+                {/* <p>
                     Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
                     consectetur velit
-                </p>
+                </p> */}
             </div>
             {/* End Section Title */}
 
@@ -23,9 +23,9 @@ const ContactSection = () => {
                             data-aos="fade-up"
                             data-aos-delay={300}
                         >
-                            <i className="bi bi-telephone" />
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <i className="bi bi-instagram" />
+                            <h3>Instragram</h3>
+                            <p>@MusicForBalance</p>
                         </div>
                     </div>
                     {/* End Info Item */}
@@ -37,7 +37,7 @@ const ContactSection = () => {
                         >
                             <i className="bi bi-envelope" />
                             <h3>Email Us</h3>
-                            <p>info@example.com</p>
+                            <p>musicforbalance@gmail.com</p>
                         </div>
                     </div>
                     {/* End Info Item */}
@@ -51,7 +51,7 @@ const ContactSection = () => {
                         >
                             <i className="bi bi-geo-alt" />
                             <h3>Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>Based in Buenos Aires, Argentina.</p>
                         </div>
                     </div>
                     {/* End Info Item */}
