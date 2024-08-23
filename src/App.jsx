@@ -4,7 +4,6 @@ import Header from './pages/Header'
 import HeroSection from './pages/Herosection'
 import AboutSection from './pages/AboutSection'
 import ClientSection from './pages/ClientSection'
-import LandingPage from './Landing'
 import TeamSection from './pages/TeamSection'
 import ServiceSection from './pages/ServiceSection'
 import FooterSection from './pages/FooterSection'
@@ -19,7 +18,7 @@ function App() {
   
   return (
     <>
-      {/* <LandingPage /> */}
+      
       <Header />
       <main className="main">
         <HeroSection />

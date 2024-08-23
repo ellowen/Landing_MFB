@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import '../../public/assets/vendor/swiper/swiper-bundle.min.css';
-import '../../public/assets/vendor/swiper/swiper-bundle.min.css';
+// import '/assets/vendor/swiper/swiper-bundle.min.css';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 // import client1 from '../../public/assets/img/clients/client-1.png';
