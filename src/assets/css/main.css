@@ -936,8 +936,15 @@ section,
   z-index: 3;
 }
 
+.hero h3 {
+  margin: 100px 0 0 0; 
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .hero h2 {
-  margin: 0px 0 0 0; ;
+  margin: 20px 0 0 0; 
   font-size: 48px;
   text-transform: uppercase;
   font-weight: 700;
@@ -968,13 +975,15 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .hero h3 {
     font-size: 32px;
-    margin: 320px 0 0 0; 
+    margin: 340px 0 0 0; 
   }
+  
 
   .hero p {
-    font-size: 18px;
+    font-size: 15px;
+    margin-bottom: -15px;
   }
 }
 
