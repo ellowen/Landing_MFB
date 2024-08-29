@@ -11,7 +11,7 @@ import clothes3 from '/assets/img/clothes/clothes3.jpg';
 import clothes4 from '/assets/img/clothes/clothes4.jpg';
 import clothes5 from '/assets/img/clothes/clothes5.jpg';
 
-const PorfolioSection = () => {
+const ClothesSection = () => {
     return (
         <section id="portfolio" className="portfolio section">
             {/* Section Title */}
@@ -318,4 +318,4 @@ const PorfolioSection = () => {
     )
 }
 
-export default PorfolioSection
+export default ClothesSection

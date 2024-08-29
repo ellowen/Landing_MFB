@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const ServiceSection = () => {
+const VideoSection = () => {
   const [loadVideos, setLoadVideos] = useState(false);
   const sectionRef = useRef(null);
 
@@ -123,4 +123,4 @@ const ServiceSection = () => {
   );
 };
 
-export default ServiceSection;
+export default VideoSection;

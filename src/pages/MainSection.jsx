@@ -4,7 +4,7 @@ import React from 'react'
 // import MFB1 from '/assets/img/MAIN/portada_micovitto_mfb (1).jpg'
 import MFB1 from '/assets/img/MAIN/portadamfb_limpia.jpg'
 
-const HeroSection = () => {
+const MainSection = () => {
     return (
 
         <section id="hero" className="hero section dark-background">
@@ -26,4 +26,4 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection
+export default MainSection
