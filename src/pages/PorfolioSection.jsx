@@ -63,7 +63,7 @@ const PorfolioSection = () => {
                                     data-gallery="portfolio-gallery-app"
                                     className="glightbox preview-link"
                                 >
-                                    <i className="bi bi-zoom-in" />
+                                    {/* <i className="bi bi-zoom-in" /> */}
                                 </a>
                                 <a
                                     href="https://mfbclothes.com.ar/productos/organic-look/"
@@ -92,7 +92,7 @@ const PorfolioSection = () => {
                                     data-gallery="portfolio-gallery-product"
                                     className="glightbox preview-link"
                                 >
-                                    <i className="bi bi-zoom-in" />
+                                    {/* <i className="bi bi-zoom-in" /> */}
                                 </a>
                                 <a
                                     href="https://mfbclothes.com.ar/productos/organic-look/"
@@ -121,7 +121,7 @@ const PorfolioSection = () => {
                                     data-gallery="portfolio-gallery-branding"
                                     className="glightbox preview-link"
                                 >
-                                    <i className="bi bi-zoom-in" />
+                                    {/* <i className="bi bi-zoom-in" /> */}
                                 </a>
                                 <a
                                     href="https://mfbclothes.com.ar/productos/organic-look/"
