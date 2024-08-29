@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 // import logo from '../../public/assets/img/MFB1.jpg';
 import logo from '/assets/img/MFB Logo.png';
+import soundCloud from '/assets/img/icons/soundcloud.png'
 
 const Header = () => {
   useEffect(() => {
@@ -58,12 +59,15 @@ const Header = () => {
             </i> */}
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
-            {/* <a href="#" className="twitter">
+            <a href="https://soundcloud.com/music-for-balance" className="soundcloud">
+              <img src={soundCloud} alt="SoundCloud" style={{ width: '19px', height: '19px' , filter: 'invert(62%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(97%) contrast(88%)' }} />
+            </a>
+            {/* <a href="https://soundcloud.com/music-for-balance" className="soundcloud">
               <i className="bi bi-twitter-x" />
             </a> */}
-            {/* <a href="#" className="facebook">
-              <i className="bi bi-facebook" />
-            </a> */}
+            <a href="https://www.youtube.com/@mfbmusicforbalance" className="youtube">
+              <i className="bi bi-youtube" />
+            </a>
             <a href="https://www.instagram.com/musicforbalance/?hl=es#" className="instagram">
               <i className="bi bi-instagram" />
             </a>
@@ -88,8 +92,8 @@ const Header = () => {
               <li><a href="#hero" className="active">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Episodios</a></li>
-              <li><a href="#team">Team</a></li>
               <li><a href="#portfolio">MFB Clothes</a></li>
+              <li><a href="#team">Team</a></li>
               <li><a href="#contacto">Contacto</a></li>
             </ul>
             <i className="mobile-nav-toggle d-xl-none bi bi-list" />

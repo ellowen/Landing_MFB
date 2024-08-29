@@ -21,12 +21,13 @@
 :root {
   --background-color: #191919;
   /* Background color for the entire website, including individual sections */
-  --default-color: #444444;
+  /* --default-color: #444444; */
+  --default-color: #a5a5a5b4;
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff;
   ;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #cc1616;
+  --accent-color: #cc1616a3;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -38,16 +39,17 @@
 :root {
   --nav-color: #ffffff;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #cc1616;
+  --nav-hover-color: #cc1616af; 
   /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #444444;
+  --nav-mobile-background-color: #191919;
   ;
   /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff;
   /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #ffffff;
   /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #cc1616;
+  /* --nav-dropdown-hover-color: #cc1616; */
+  --nav-dropdown-hover-color: #cc1616af;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -215,8 +217,9 @@ h6 {
   color: var(--accent-color);
 }
 
-.header .branding {
+.header .branding { /* BRANDING */
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  /* background-color: var(--background-color); */
   min-height: 50px;
 }
 
@@ -934,7 +937,7 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
+  margin: 0px 0 0 0; ;
   font-size: 48px;
   text-transform: uppercase;
   font-weight: 700;
@@ -967,6 +970,7 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
+    margin: 320px 0 0 0; 
   }
 
   .hero p {

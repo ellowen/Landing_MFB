@@ -16,9 +16,9 @@ const PorfolioSection = () => {
         <section id="portfolio" className="portfolio section">
             {/* Section Title */}
             <div className="container section-title" /* data-aos="fade-up" */>
-                <span>MFB Clothes</span>
-                <h2>MFB Clothes</h2>
-                <p>
+                <span>Clothes</span>
+                <h2>Clothes</h2>
+                <p style={{ color: '#e6e6e6' }}>
                     Fashion & Style Brand for Musical Events & Artists
                 </p>
             </div>

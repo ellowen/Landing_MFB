@@ -6,11 +6,11 @@ const AboutSection = () => {
       {/* Section Title */}
       <div className="container section-title" /* data-aos="fade-up" */>
         <span>
-          About MFB
+          About Us
           <br />
         </span>
         <h2>
-          About MFB
+          About Us
           <br />
         </h2>
         {/* <p>

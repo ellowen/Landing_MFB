@@ -27,8 +27,8 @@ function App() {
         <AboutSection />
         <ClientSection />
         <ServiceSection />
-        <TeamSection />
         <PorfolioSection />
+        <TeamSection />
         <ContactSection />
       </main>
       <FooterSection />
