@@ -22,7 +22,7 @@ const ServiceSection = () => {
       {
         root: null, // viewport
         rootMargin: '0px',
-        threshold: 0.1, // 10% del componente debe ser visible para activar la carga
+        threshold: 0.4, // 10% del componente debe ser visible para activar la carga
       }
     );
 
