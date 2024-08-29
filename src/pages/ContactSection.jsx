@@ -3,7 +3,7 @@ import React from 'react'
 const ContactSection = () => {
     return (
         <section id="contacto" className="contact section dark-background"
-        style={{ backgroundColor: '#191919', color: '#ffffff' }} 
+        /* style={{ backgroundColor: '#191919', color: '#ffffff' }}  */
         >
             {/* Section Title */}
             <div className="container section-title" /* data-aos="fade-up" */>
@@ -22,7 +22,7 @@ const ContactSection = () => {
                     <div className="col-lg-6 col-md-6 ">
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
-                            style={{ backgroundColor: '#060606'}}
+                           /*  style={{ backgroundColor: '#060606'}} */
                             /* data-aos="fade-up" */
                            /*  data-aos-delay={300} */
                         >
@@ -35,7 +35,7 @@ const ContactSection = () => {
                     <div className="col-lg-6 col-md-6 mb-1">
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
-                            style={{ backgroundColor: '#060606'}}
+                           /*  style={{ backgroundColor: '#060606'}} */
                             /* data-aos="fade-up" */
                           /*   data-aos-delay={400} */
                         >
@@ -50,7 +50,7 @@ const ContactSection = () => {
                     <div className="col-lg-12 mb-1">
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
-                            style={{ backgroundColor: '#060606'}}
+                           /*  style={{ backgroundColor: '#060606'}} */
                             /* data-aos="fade-up" */
                             /* data-aos-delay={200} */
                         >

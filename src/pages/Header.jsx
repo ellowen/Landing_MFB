@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // import logo from '../../public/assets/img/MFB1.jpg';
-import logo from '/assets/img/MFB Logo.png';
+import logo from '/assets/img/Header/MFB Logo.png';
 import soundCloud from '/assets/img/icons/soundcloud.png'
 
 const Header = () => {

@@ -15,11 +15,11 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import client1 from '/assets/img/clients/ASA_Blanco.png';
 import client2 from '/assets/img/clients/Detroit_Blanco.png';
 import client3 from '/assets/img/clients/Great_Sound_Blanco.png';
-import client4 from '/assets/img/clients/MFB clothes_ Blanco (1).png';
+import client4 from '/assets/img/clients/MFB clothes_ Blanco.png';
 import client5 from '/assets/img/clients/ASA_Blanco.png';
 import client6 from '/assets/img/clients/Detroit_Blanco.png';
 import client7 from '/assets/img/clients/Great_Sound_Blanco.png';
-import client8 from '/assets/img/clients/MFB clothes_ Blanco (1).png';
+import client8 from '/assets/img/clients/MFB clothes_ Blanco.png';
 
 const ClientsSection = () => {
     const swiperConfig = {

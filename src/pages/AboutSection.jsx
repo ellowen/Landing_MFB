@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../../public/assets/img/image.png'
+import aboutImg from '../../public/assets/img/About/image.png'
 const AboutSection = () => {
   return (
     <section id="about" className="about section">
