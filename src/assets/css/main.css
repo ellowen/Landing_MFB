@@ -987,6 +987,77 @@ section,
   }
 }
 
+@media (max-width: 431px) {
+  .hero h3 {
+    font-size: 32px;
+    margin: 600px 0 0 0; 
+  }
+  
+
+  .hero p {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 429px) {
+  .hero h3 {
+    font-size: 32px;
+    margin: 440px 0 0 0; 
+  }
+  
+
+  .hero p {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .hero h3 {
+    font-size: 32px;
+    margin: 500px 0 0 0; 
+  }
+  
+
+  .hero p {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .hero h3 {
+    font-size: 32px;
+    margin: 340px 0 0 0; 
+  }
+  
+
+  .hero p {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .hero h3 {
+    font-size: 32px;
+    margin: 400px 0 0 0; 
+  }
+  
+
+  .hero p {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
