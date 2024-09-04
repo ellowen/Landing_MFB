@@ -6,7 +6,7 @@ const ContactSection = () => {
         /* style={{ backgroundColor: '#191919', color: '#ffffff' }}  */
         >
             {/* Section Title */}
-            <div className="container section-title" /* data-aos="fade-up" */>
+            <div className="container section-title" data-aos="fade-up">
                 <span>Contacto</span>
                 <h2>Contacto</h2>
                 {/* <p>
@@ -16,15 +16,15 @@ const ContactSection = () => {
             </div>
             {/* End Section Title */}
 
-            <div className="container " /* data-aos="fade-up" */ /* data-aos-delay={100} */>
+            <div className="container " data-aos="fade-up" data-aos-delay={100}>
                 <div className="row gy-4">
 
                     <div className="col-lg-6 col-md-6 ">
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
                            /*  style={{ backgroundColor: '#060606'}} */
-                            /* data-aos="fade-up" */
-                           /*  data-aos-delay={300} */
+                            data-aos="fade-up"
+                            data-aos-delay={300}
                         >
                             <i className="bi bi-instagram" />
                             <h3>Instragram</h3>
@@ -36,8 +36,8 @@ const ContactSection = () => {
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
                            /*  style={{ backgroundColor: '#060606'}} */
-                            /* data-aos="fade-up" */
-                          /*   data-aos-delay={400} */
+                            data-aos="fade-up"
+                            data-aos-delay={400}
                         >
                             <i className="bi bi-envelope" />
                             <h3>Email Us</h3>
@@ -51,8 +51,8 @@ const ContactSection = () => {
                         <div
                             className="info-item d-flex flex-column justify-content-center align-items-center"
                            /*  style={{ backgroundColor: '#060606'}} */
-                            /* data-aos="fade-up" */
-                            /* data-aos-delay={200} */
+                            data-aos="fade-up"
+                            data-aos-delay={200}
                         >
                             <i className="bi bi-geo-alt" />
                             <h3>Address</h3>

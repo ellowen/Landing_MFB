@@ -8,8 +8,8 @@ const MainSection = () => {
     return (
 
         <section id="hero" className="hero section dark-background">
-            <img src={MFB1} alt="" /* data-aos="fade-in" */ />
-            <div className="container" /* data-aos="fade-up" data-aos-delay={100} */>
+            <img src={MFB1} alt="" data-aos="fade-in" />
+            <div className="container" data-aos="fade-up" data-aos-delay={100}>
                 <div className="row justify-content-start">
                     <div className="col-lg-8">
                         <h3>MUSIC FOR BALANCE</h3>

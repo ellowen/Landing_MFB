@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="about section">
       {/* Section Title */}
-      <div className="container section-title" /* data-aos="fade-up" */>
+      <div className="container section-title" data-aos="fade-up">
         <span>
           About Us
           <br />
@@ -23,15 +23,15 @@ const AboutSection = () => {
         <div className="row gy-4">
           <div
             className="col-lg-6 order-1 order-lg-2"
-            /* data-aos="fade-up" */
-           /*  data-aos-delay={100} */
+            data-aos="fade-up"
+            data-aos-delay={100}
           >
             <img src={aboutImg} className="img-fluid" alt="" />
           </div>
           <div
             className="col-lg-6 order-2 order-lg-1 content"
-            /* data-aos="fade-up" */
-           /*  data-aos-delay={200} */
+            data-aos="fade-up"
+            data-aos-delay={200}
           >
             {/* <h1>MUSIC FOR BALANCE</h1> */}
             {/* <p className="fst-italic">
