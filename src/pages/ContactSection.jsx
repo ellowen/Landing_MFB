@@ -41,7 +41,7 @@ const ContactSection = () => {
                         >
                             <i className="bi bi-envelope" />
                             <h3>Email Us</h3>
-                            <p>musicforbalance@gmail.com</p>
+                            <p>contacto@MusicForBalance.com.ar</p>
                         </div>
                     </div>
                     {/* End Info Item */}
