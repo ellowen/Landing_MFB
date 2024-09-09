@@ -1,17 +1,16 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Chota from './assets/js/main.js';
 import Header from './pages/Header';
 import FooterSection from './pages/FooterSection';
 
-// Usa React.lazy para importar los componentes de manera diferida
-const MainSection = lazy(() => import('./pages/MainSection.jsx'));
-const AboutSection = lazy(() => import('./pages/AboutSection'));
-const ClientSection = lazy(() => import('./pages/ClientSection'));
-// const TeamSection = lazy(() => import('./pages/TeamSection'));
-const VideoSection = lazy(() => import('./pages/VideoSection.jsx'));
-const ClothesSection = lazy(() => import('./pages/ClothesSection.jsx'));
-const ContactSection = lazy(() => import('./pages/ContactSection'));
-
+// Importaciones regulares de los componentes
+import MainSection from './pages/MainSection.jsx';
+import AboutSection from './pages/AboutSection';
+import ClientSection from './pages/ClientSection';
+// import TeamSection from './pages/TeamSection';
+import VideoSection from './pages/VideoSection.jsx';
+import ClothesSection from './pages/ClothesSection.jsx';
+import ContactSection from './pages/ContactSection';
 
 function App() {
   useEffect(() => {
@@ -22,24 +21,12 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <Suspense fallback={<div>Loading Hero Section...</div>}>
-          <MainSection />
-        </Suspense>
-        <Suspense fallback={<div>Loading About Section...</div>}>
-          <AboutSection />
-        </Suspense>
-        <Suspense fallback={<div>Loading Clients...</div>}>
-          <ClientSection />
-        </Suspense>
-        <Suspense fallback={<div>Loading Services...</div>}>
-          <VideoSection />
-        </Suspense>
-        <Suspense fallback={<div>Loading Portfolio...</div>}>
-          <ClothesSection />
-        </Suspense>
-        <Suspense fallback={<div>Loading Contact Section...</div>}>
-          <ContactSection />
-        </Suspense>
+        <MainSection />
+        <AboutSection />
+        <ClientSection />
+        <VideoSection />
+        <ClothesSection />
+        <ContactSection />
       </main>
       <FooterSection />
     </>
