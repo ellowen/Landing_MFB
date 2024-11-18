@@ -11,6 +11,7 @@ import ClientSection from './pages/ClientSection';
 import VideoSection from './pages/VideoSection.jsx';
 import ClothesSection from './pages/ClothesSection.jsx';
 import ContactSection from './pages/ContactSection';
+import ServicesSection from './pages/ServicesSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -24,7 +25,8 @@ function App() {
         <MainSection />
         <AboutSection />
         <ClientSection />
-        <VideoSection />
+        <ServicesSection />
+        {/* <VideoSection /> */}
         <ClothesSection />
         <ContactSection />
       </main>

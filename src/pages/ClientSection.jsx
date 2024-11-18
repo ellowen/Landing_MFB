@@ -2,11 +2,11 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-import client1 from '/assets/img/clients/ASA_Blanco.png';
+import client1 from '/assets/img/clients/LOGO-COLOR.png';
 import client2 from '/assets/img/clients/Detroit_Blanco.png';
 import client3 from '/assets/img/clients/Great_Sound_Blanco.png';
 import client4 from '/assets/img/clients/MFB clothes_ Blanco.png';
-import client5 from '/assets/img/clients/ASA_Blanco.png';
+import client5 from '/assets/img/clients/LOGO-COLOR.png';
 import client6 from '/assets/img/clients/Detroit_Blanco.png';
 import client7 from '/assets/img/clients/Great_Sound_Blanco.png';
 import client8 from '/assets/img/clients/MFB clothes_ Blanco.png';
@@ -49,9 +49,9 @@ const ClientsSection = () => {
         <section id="clients" className="clients section light-background">
             <div className="container">
                 <Swiper {...swiperConfig}>
-                    {/* <SwiperSlide>
+                    <SwiperSlide>
                         <img src={client1} className="img-fluid" alt="Client 1" />
-                    </SwiperSlide> */}
+                    </SwiperSlide>
                     <SwiperSlide>
                         <img src={client2} className="img-fluid" alt="Client 2" />
                     </SwiperSlide>
@@ -61,9 +61,9 @@ const ClientsSection = () => {
                     <SwiperSlide>
                         <img src={client4} className="img-fluid" alt="Client 4" />
                     </SwiperSlide>
-                    {/* <SwiperSlide>
+                    <SwiperSlide>
                         <img src={client5} className="img-fluid" alt="Client 5" />
-                    </SwiperSlide> */}
+                    </SwiperSlide>
                     <SwiperSlide>
                         <img src={client6} className="img-fluid" alt="Client 6" />
                     </SwiperSlide>
