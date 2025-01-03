@@ -1,7 +1,7 @@
 import React from 'react'
 
-// import MFB1 from '/assets/img/MAIN/portadamfb_limpia.jpg'
-import MFB1 from '/assets/img/MAIN/11294533_210.jpg'
+import MFB1 from '/assets/img/MAIN/portadamfb_limpia.jpg'
+// import MFB1 from '/assets/img/MAIN/11294533_210.jpg'
 
 const MainSection = () => {
     return (
@@ -13,11 +13,13 @@ const MainSection = () => {
                     <div className="col-lg-8">
                         <h3>MUSIC FOR BALANCE</h3>
                         {/*  ORIGINAL  */}
-                        {/* <p> <strong style={{ color: '#D2122E' }} >Episodio #1</strong> | 2 de Octubre | <strong style={{ color: '#D2122E' }}>20:00hs ARG</strong></p> 
-                         <h2>NICOVITTO</h2> */}
+                        <p> <strong style={{ color: '#D2122E' }} >Episodio #3</strong>
+                            {/* | 2 de Octubre | <strong style={{ color: '#D2122E' }}>20:00hs ARG</strong> */}
+                        </p>
+                        <h2>NICOVITTO</h2>
                         {/*  ORIGINAL  */}
                         {/*  COMING SOON  */}
-                        <p> <strong style={{ color: '#D2122E' }} >COMING SOON</strong> | EPISODIO #1 </p>
+                        {/* <p> <strong style={{ color: '#D2122E' }} >COMING SOON</strong> | EPISODIO #1 </p> */}
                         {/*  COMING SOON  */}
                     </div>
                 </div>

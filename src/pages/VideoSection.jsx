@@ -96,7 +96,7 @@ const VideoSection = () => {
         <span>Episodios</span>
         <h2>Episodios</h2>
         <p>
-          Disfrutá de la <strong>Temporada #1 PURE ORGANIC HOUSE</strong>
+          Disfrutá de la <strong>Temporada #3 PURE ORGANIC HOUSE</strong>
         </p>
       </div>
       <div className="container">
@@ -104,17 +104,17 @@ const VideoSection = () => {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
             <div className="service-item position-relative">
               {/* {loadVideos && renderYouTubeIframe("I6ApqvOQEDQ")} */}
-              {loadVideos && renderYouTubeIframe("I6ApqvOQEDQ")}
+              {loadVideos && renderYouTubeIframe("TkPhhENZcIQ")}
             </div>
           </div>
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={200}>
             <div className="service-item position-relative">
-              {loadVideos && renderYouTubeIframe("5nRZ7wquWgs")}
+              {loadVideos && renderYouTubeIframe("MHthWaK9MEo")}
             </div>
           </div>
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={300}>
             <div className="service-item position-relative">
-              {loadVideos && renderYouTubeIframe("BARPOnAHQYg")}
+              {loadVideos && renderYouTubeIframe("afAtu9hugNg")}
             </div>
           </div>
         </div>
