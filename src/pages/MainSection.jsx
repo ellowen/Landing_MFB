@@ -13,7 +13,7 @@ const MainSection = () => {
                     <div className="col-lg-8">
                         <h3>MUSIC FOR BALANCE</h3>
                         {/*  ORIGINAL  */}
-                        <p> <strong style={{ color: '#D2122E' }} >Episodio #3</strong>
+                        <p> <strong style={{ color: '#D2122E' }} > Episodio #3</strong>
                             {/* | 2 de Octubre | <strong style={{ color: '#D2122E' }}>20:00hs ARG</strong> */}
                         </p>
                         <h2>NICOVITTO</h2>

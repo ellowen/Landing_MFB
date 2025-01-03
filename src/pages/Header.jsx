@@ -92,7 +92,7 @@ const Header = () => {
               <li><a href="#hero" className="active">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Servicios</a></li>
-              <li><a href="#services">Episodios</a></li> {/* VIDEOSECTION */}
+              <li><a href="#videos">Episodios</a></li> {/* VIDEOSECTION */}
               <li><a href="#portfolio">Tienda</a></li>
               {/* <li><a href="#team">Team</a></li> */}
               <li><a href="#contacto">Contacto</a></li>
